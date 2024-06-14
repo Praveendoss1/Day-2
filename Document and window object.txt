@@ -1,0 +1,9 @@
+The document and window objects are fundamental in web development, each serving distinct roles.
+The window object represents the browser window, acting as the global context for all JavaScript code.
+It encompasses properties and methods for controlling the browser environment, such as alert(), setTimeout(), and location.
+All global variables and functions in JavaScript are properties of the window object. For instance, when you declare var x = 10;, it is equivalent to window.x = 10;.
+The document object represents the HTML content within the window.
+It provides methods and properties to interact with and manipulate the DOM (Document Object Model), such as getElementById(), createElement(), and querySelector().
+It provides information about the document itself, such as document.title for the title of the webpage, document.URL for the current URL, and document.cookie for managing cookies.
+While window is the overarching environment, document is specifically for content manipulation.
+Together, they form the foundation of dynamic, interactive web applications.
